@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="/">
+  <title>ExecuteAutomation Courses</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/toastr/build/toastr.min.css">
+  <link rel="stylesheet" href="node_modules/ng2f-bootstrap/dist/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Polyfill(s) for older browsers -->
+  <script src="node_modules/core-js/client/shim.min.js"></script>
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/toastr/build/toastr.min.js"> </script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+  <script src="systemjs.config.js"></script>
+  <script>
+    System.import('app').catch(function (err) { console.error(err); });
+  </script>
+</head>
+
+<body class="container">
+  <event-comp></event-comp>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<div class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand"><img src="/app/assets/images/ea.png"></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a [routerLink]="['']" >All Courses</a>
+        </li>
+        <li><a [routerLink]="['/course/new']">Create courses</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+            Course Category
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li >
+              <a [routerLink]="['/course/1']">Selenium</a>
+            </li>
+                        <li >
+              <a [routerLink]="['/course/2']">Coded UI</a>
+            </li>
+            <li >
+              <a [routerLink]="['/course/3']">Docker</a>
+            </li>
+            <li >
+              <a [routerLink]="['/course/4']">Android Automation</a>
+            </li>
+            <li >
+              <a href="">Protractor</a>
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+      <div class="navbar-header navbar-right">
+        <ul class="nav navbar-nav">
+          <li>
+            <a>Welcome Karthik</a>
+          </li>
+        </ul>
+      </div>
+      <form id="searchForm"  class="navbar-form navbar-right"  >
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Courses" >
+        </div>
+        <button class="btn btn-default" >
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
