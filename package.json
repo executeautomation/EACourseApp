@@ -1,5 +1,5 @@
 {
-  "name": "ng2-fundamentals-demo",
+  "name": "EA Course App",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
